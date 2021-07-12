@@ -1,15 +1,24 @@
-# School_District_Analysis_Challenge
-Module 4 Challenge
-Overview of the school district analysis: Explain the purpose of this analysis.
+#School District Analysis
+##Purpose
+This analysis will help to identify schools within the district that are performing well, as well as the schools that may need additional resources to increase performance.  
+The Analysis is based on:
+•	Math and Reading test scores at both the school level and the grade level
+•	School size
+•	Per student budget in each school
+•	The type of school
+Thomas High School was found to have discrepancies in their 9th grade Math and Reading scores that lead the Board to determine that the 9th grade information from Thomas needed to be removed from this report. 
+##Results/Findings
+Removing the 9th grade scores and passing percentages changes the analysis in the following manner:
+#District Level:
+•	Average Math score goes down by .1 of a point
+•	Average Reading score remains the same
+•	% of Passing Math goes down by .2 of a %
+•	% of Passing Reading goes down by .3 of a %
+•	% Overall Passing goes down by .1 of a %
+#School Level:
+•	Average Math score goes down by .07 of a point
+•	Average Reading score goes down by .04 of a point
+•	% of Passing Math goes down by .08 of a %
+•	% of Passing Reading goes down by .29 of a %
+•	% Overall Passing goes down by .32 of a %
 
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-
-How is the district summary affected?
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
